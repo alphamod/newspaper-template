@@ -1,0 +1,59 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    margin: auto 200px auto 200px;
+}
+hr{
+    border-color: black;
+    margin:5px auto 5px auto;
+}
+
+.mainHeading>h1{
+    font-weight: 700;
+    font-size: 500%;
+    letter-spacing: 4px;
+    padding-left:30px;
+}
+.mainImage{
+    height: 300px;
+    overflow: hidden;
+}
+
+.mainImage>img{
+    width:100%;
+    margin-top:-50px;
+}
+.mainContent > h3{
+font-size: 230%;
+margin: 10px auto 30px auto;
+}
+
+.col1>img{
+    height: 185px;
+    width: 100%;
+    margin-top: 15px;
+}
+.col2>img{
+    height: 185px;
+    width: 100%;
+    margin-top: 15px;
+}
+.col3>img{
+    height: 185px;
+    width: 100%;
+    margin-top: 15px;
+}
+.redbox >h6{
+    background-color: red;
+    color: white;
+    padding: 2px;
+    height: auto;
+    border: none;
+    width:95px;
+    margin-bottom:-25px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);}
+.redbox{
+    position: absolute;
+    z-index: 1;
+    
+}
